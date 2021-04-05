@@ -41,6 +41,7 @@
 		C2C888CB261B246F00447878 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C2C888CA261B246F00447878 /* Kingfisher */; };
 		C2C888CE261B250700447878 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C888CD261B250700447878 /* GoogleService-Info.plist */; };
 		C2C888D1261B293C00447878 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C888D0261B293B00447878 /* AuthViewModel.swift */; };
+		C2C888D4261B83B200447878 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C888D3261B83B200447878 /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		C2C888BA261B145100447878 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		C2C888CD261B250700447878 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2C888D0261B293B00447878 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C2C888D3261B83B200447878 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		C2BB2E4F2617714700B6C2E2 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C2C888D3261B83B200447878 /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				C21904D626184BDF005E5124 /* PostGridView.swift in Sources */,
 				C2C888B2261B120900447878 /* RegistrationView.swift in Sources */,
 				C2C888B8261B144400447878 /* CustomTextField.swift in Sources */,
+				C2C888D4261B83B200447878 /* ImageUploader.swift in Sources */,
 				C2BB2E692617731100B6C2E2 /* FeedView.swift in Sources */,
 				C2BB2E55261771B600B6C2E2 /* ContentView.swift in Sources */,
 				C2BB2E3C261770BD00B6C2E2 /* InstagramCloneApp.swift in Sources */,

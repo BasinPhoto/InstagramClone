@@ -28,6 +28,7 @@ struct RegistrationView: View {
                     if let image = image {
                         image
                             .resizable()
+
                             .frame(width: 140, height: 140)
                             .font(.system(size: 40, weight: .bold))
                             .clipShape(Circle())
@@ -79,7 +80,7 @@ struct RegistrationView: View {
                 }
                 
                 Button(action: {
-                    viewModel.register()
+                    viewModel.register(withEmail: email, password: password, image: selectedImage, fullName: fullName, userName: userName)
                 }, label: {
                     Text("Sign Up")
                         .font(.headline)
