@@ -28,7 +28,7 @@ struct RegistrationView: View {
                     if let image = image {
                         image
                             .resizable()
-
+                            .scaledToFill()
                             .frame(width: 140, height: 140)
                             .font(.system(size: 40, weight: .bold))
                             .clipShape(Circle())
