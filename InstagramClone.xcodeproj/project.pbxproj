@@ -49,6 +49,7 @@
 		C2F8A3F3261C90C500A825E3 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3F2261C90C500A825E3 /* ProfileViewModel.swift */; };
 		C2F8A3F6261CD04200A825E3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3F5261CD04200A825E3 /* UserService.swift */; };
 		C2F8A3F9261DAC2500A825E3 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3F8261DAC2500A825E3 /* UploadPostViewModel.swift */; };
+		C2F8A3FF261E0BEA00A825E3 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3FE261E0BEA00A825E3 /* TextArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		C2F8A3F2261C90C500A825E3 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		C2F8A3F5261CD04200A825E3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		C2F8A3F8261DAC2500A825E3 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
+		C2F8A3FE261E0BEA00A825E3 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				C2C888B7261B144400447878 /* CustomTextField.swift */,
 				C2C888BA261B145100447878 /* CustomSecureField.swift */,
 				C2F8A3DA261C75D200A825E3 /* Constants.swift */,
+				C2F8A3FE261E0BEA00A825E3 /* TextArea.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				C2BB2E65261772D600B6C2E2 /* MainTabView.swift in Sources */,
 				C2F8A3F9261DAC2500A825E3 /* UploadPostViewModel.swift in Sources */,
 				C2C888AC261A310500447878 /* ImagePicker.swift in Sources */,
+				C2F8A3FF261E0BEA00A825E3 /* TextArea.swift in Sources */,
 				C2C888A3261A08E900447878 /* ProfileHeaderView.swift in Sources */,
 				C2F8A3F6261CD04200A825E3 /* UserService.swift in Sources */,
 				C2BB2E752617736400B6C2E2 /* UploadPostView.swift in Sources */,
