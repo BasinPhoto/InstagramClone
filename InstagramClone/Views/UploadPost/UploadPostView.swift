@@ -12,6 +12,7 @@ struct UploadPostView: View {
     @State var postImage: Image?
     @State var captionText = ""
     @State var imagePickerPresented = false
+    @ObservedObject var viewModel = UploadPostViewModel()
     
     var body: some View {
         VStack {
@@ -19,7 +20,7 @@ struct UploadPostView: View {
                 Button(action: {
                     imagePickerPresented.toggle()
                 }, label: {
-                Image(systemName: "plus")
+                Image(systemName: "photo.on.rectangle.angled")
                     .resizable()
                     .renderingMode(.template)
                     .scaledToFill()
@@ -27,8 +28,7 @@ struct UploadPostView: View {
                     .clipped()
                     .padding(.top, 56)
                     .foregroundColor(.black)
-            })
-                .sheet(isPresented: $imagePickerPresented, onDismiss: loadImage,content: {
+            }).sheet(isPresented: $imagePickerPresented, onDismiss: loadImage,content: {
                     ImagePicker(image: $selectedImage)
                 })
             } else if let image = postImage {
@@ -36,13 +36,17 @@ struct UploadPostView: View {
                     image
                         .resizable()
                         .scaledToFill()
-                    frame(width: 96, height: 96)
+                        .frame(width: 96, height: 96)
                     
-                    TextField("Enter your caption", text: $captionText)
+                    TextField("Enter your caption...", text: $captionText)
                 }
                 .padding()
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    if let image = selectedImage {
+                        viewModel.uploadPost(caption: captionText, image: image)
+                    }
+                }, label: {
                     Text("Share")
                         .font(.system(size: 16, weight: .semibold))
                         .frame(width: 360, height: 50)
@@ -62,11 +66,5 @@ extension UploadPostView {
     func loadImage() {
         guard let selectedImage = selectedImage else { return }
         postImage = Image(uiImage: selectedImage)
-    }
-}
-
-struct UploadPostView_Previews: PreviewProvider {
-    static var previews: some View {
-        UploadPostView()
     }
 }

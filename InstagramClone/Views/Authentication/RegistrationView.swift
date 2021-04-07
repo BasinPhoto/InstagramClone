@@ -115,9 +115,3 @@ extension RegistrationView {
         image = Image(uiImage: selectedImage)
     }
 }
-
-struct RegistrationView_Previews: PreviewProvider {
-    static var previews: some View {
-        RegistrationView()
-    }
-}

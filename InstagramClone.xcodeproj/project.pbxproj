@@ -48,6 +48,7 @@
 		C2F8A3F0261C7CC900A825E3 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3EF261C7CC900A825E3 /* SearchViewModel.swift */; };
 		C2F8A3F3261C90C500A825E3 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3F2261C90C500A825E3 /* ProfileViewModel.swift */; };
 		C2F8A3F6261CD04200A825E3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3F5261CD04200A825E3 /* UserService.swift */; };
+		C2F8A3F9261DAC2500A825E3 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8A3F8261DAC2500A825E3 /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		C2F8A3EF261C7CC900A825E3 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		C2F8A3F2261C90C500A825E3 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		C2F8A3F5261CD04200A825E3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		C2F8A3F8261DAC2500A825E3 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				C2BB2E612617725100B6C2E2 /* Notifications */,
 				C2BB2E602617724D00B6C2E2 /* Feed */,
 				C2F8A3EF261C7CC900A825E3 /* SearchViewModel.swift */,
+				C2F8A3F8261DAC2500A825E3 /* UploadPostViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				C2BB2E3C261770BD00B6C2E2 /* InstagramCloneApp.swift in Sources */,
 				C2C888B5261B121D00447878 /* ResetPasswordView.swift in Sources */,
 				C2BB2E65261772D600B6C2E2 /* MainTabView.swift in Sources */,
+				C2F8A3F9261DAC2500A825E3 /* UploadPostViewModel.swift in Sources */,
 				C2C888AC261A310500447878 /* ImagePicker.swift in Sources */,
 				C2C888A3261A08E900447878 /* ProfileHeaderView.swift in Sources */,
 				C2F8A3F6261CD04200A825E3 /* UserService.swift in Sources */,
